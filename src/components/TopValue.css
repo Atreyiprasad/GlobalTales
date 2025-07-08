@@ -1,0 +1,21 @@
+.Main {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.heading h1 {
+  font-size: 48px;
+  font-weight: 500;
+  margin: 0;
+  font-family: 'Georgia', serif;
+  color: #111;
+}
+
+.content {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #666;
+  font-weight: 400;
+  font-family: 'Arial', sans-serif;
+}

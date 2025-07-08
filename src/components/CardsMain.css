@@ -1,0 +1,48 @@
+.CardsMain {
+  margin-top:0px;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.value-cards-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.value-card {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  padding: 30px 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+}
+
+.value-card .icon {
+  font-size: 40px;
+  color: #334EAC;
+  margin-bottom: 15px;
+}
+
+.value-card h3 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.value-card p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}

@@ -1,0 +1,106 @@
+.testimonials-container {
+  padding: 80px 60px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+}
+
+.testimonials-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.testimonials-header h2 {
+  font-size: 38px;
+  font-weight: 500;
+  font-family: 'Georgia', serif;
+  color: #111;
+}
+
+.arrows {
+  display: flex;
+  gap: 12px;
+}
+
+.arrow-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.arrow-btn.black {
+  background-color: #364ed6;
+  color: #fff;
+}
+
+.arrow-btn.green {
+  background-color: #070554;
+  color: white;
+}
+
+.arrow-btn:hover {
+  opacity: 0.9;
+}
+
+.testimonial-cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+.stars {
+  color: #f8b400;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.testimonial-text {
+  color: #444;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.customer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.customer img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.customer h4 {
+  margin: 0;
+  font-weight: 600;
+  color: #111;
+}
+
+.customer span {
+  font-size: 14px;
+  color: #777;
+}

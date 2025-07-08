@@ -1,0 +1,26 @@
+.explore-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  background-color: white;
+}
+
+.explore-heading h1 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0;
+  font-family: 'Georgia', serif;
+  color: #000;
+}
+
+.explore-description p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 450px;
+  font-family: 'Arial', sans-serif;
+}
